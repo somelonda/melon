@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int n = 0;
+	int a, b = 1;
+	scanf_s("%d", &n);
+	for (a = 1;a <= n;a++)
+	{
+		b = b * a;
+	}
+	printf("n!=%d\n", b);
+	return 0;
+}
